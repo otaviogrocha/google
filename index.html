@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+    # Adicionar Links do Google Imagens, e Google Busca Avançada
+    # Adicionar botão estou com sorte
+    # Adicionar opções google avançado
+    # Estilizar o google
+ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/responsivo.css">
+    <script src="https://kit.fontawesome.com/5a1c7bf019.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="links">
+        <a id="image" href="images.html">Imagens</a>
+        <a id="avancado" href="advanced.html">Busca Avançada</a>
+    </div>
+
+    <div class="container">
+
+        <div class="foto">
+            <img src="src/googlelogo.png" alt="google">
+        </div>
+
+        <div class="central">
+            <form action="https://google.com/search">
+                <i class="fa-solid fa-magnifying-glass"></i><input id="texto" type="text" name="q">
+                </br>
+                <input id="search" type="submit" value="Pesquisa Google">
+                <button id="lucky" type="submit" formaction="https://www.google.com/doodles">Estou com sorte</button>
+            </form>
+        </div>
+    
+    </div>
+        <div class="rodape">
+            <div class="brasil">Brasil</div>
+            <div class="sobre">
+                <div class="dentro">
+                    <a class="about" href="https://about.google/?utm_source=google-BR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre</a> 
+                    <a class="p" href="https://ads.google.com/intl/pt-BR_br/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidade</a>               
+                    <a class="business" href="https://smallbusiness.withgoogle.com/intl/pt-BR_br/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=BR#!/">Negócios</a>
+                    <a class="research" href="https://www.google.com/search/howsearchworks/?fg=1">Como funciona a Pesquisa</a>
+                </div>
+                <div class="direita">
+                    <a href="https://policies.google.com/privacy?hl=pt-BR&fg=1" class="privacidade">Privacidade</a>
+                    <a href="https://policies.google.com/terms?hl=pt-BR&fg=1" class="terms">Termos</a>
+                    <a href="https://www.google.com/preferences?hl=pt-BR&prev=https://www.google.com/search?client%3Dopera-gx%26q%3Dgoogle%2Bconfigura%25C3%25A7%25C3%25B5es%26sourceid%3Dopera%26ie%3DUTF-8%26oe%3DUTF-8" class="config">Configurações</a>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

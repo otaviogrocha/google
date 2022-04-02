@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/advanced.css">
+    <link rel="stylesheet" href="src/responsivo.css">
+    <title>Advanced Search</title>
+</head>
+
+<body>
+    <header>
+        <div class="topo">
+            <div class="foto">
+                <a href="index.html">
+                    <img src="src/googlelogo.png" alt="google logo">
+                </a>
+            </div>
+
+            <div class="link">
+                <a id="google" href="index.html">Google</a>
+                <a id="image" href="images.html">Imagens</a>
+            </div>
+        </div>
+    </header>
+    <div class="titulo">
+        <h2>Pesquisa avançada</h2>
+    </div>
+    <div class="barra"></div>
+    <div class="corpo">
+        <form action="https://www.google.com/search" method="get" name="f">
+            <div class="subtitle">
+                <span id="loc">Localizar páginas com...</span>
+                <span id="loc2">Fazer isso na caixa de pesquisa.</span>
+            </div>
+            </br>
+
+            <div class="textos">
+                <div class="todas">
+                    <label for="all">todas estas palavras:</label>
+                    <input type="text" name="as_q" id="all">
+                    <span class="campo_1">Digite as palavras importantes:</span>
+                    <span class="campo_2"> rat terrier tricolor</span>
+                </div>
+                <div class="exata">
+                    <label for="exact">esta expressão ou frase exata:</label>
+                    <input type="text" name="as_epq" id="exact">
+                    <span class="campo_1">Coloque palavras exatas entre aspas:</span>
+                    <span class="campo_2" id="dois">"rat terrier"</span>
+                </div>
+                <div class="qualquer">
+                    <label for="any">qualquer uma destas palavras:</label>
+                    <input type="text" name="as_oq" id="any">
+                    <span class="campo_1" id="tres">Digite</span>
+                    <span class="campo_2" id="quatro">or</span>
+                    <span class="campo_1" id="cinco">entre todas as palavras que você procura: </span>
+                    <span class="campo_2" id="seis">miniatura OR padrão</span>
+                </div>
+                <div class="nenhuma">
+                    <label for="none">nenhuma destas palavras:</label>
+                    <input type="text" name="as_eq" id="none">
+                    <span class="campo_1" id="sete">Coloque um sinal de menos antes das palavras que você não
+                        quer:</span>
+                    <span class="campo_2" id="oito">-roedor, -"Jack Russel"</span>
+                </div>
+
+                <input type="submit" value="Pesquisa avançada">
+            </div>
+        </form>
+    </div>
+    <div class="rodape">
+        <div class="brasil">Brasil</div>
+        <div class="sobre">
+            <div class="dentro">
+                <a class="about" href="https://about.google/?utm_source=google-BR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre</a> 
+                <a class="p" href="https://ads.google.com/intl/pt-BR_br/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidade</a>               
+                <a class="business" href="https://smallbusiness.withgoogle.com/intl/pt-BR_br/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=BR#!/">Negócios</a>
+                <a class="research" href="https://www.google.com/search/howsearchworks/?fg=1">Como funciona a Pesquisa</a>
+            </div>
+            <div class="direita">
+                <a href="https://policies.google.com/privacy?hl=pt-BR&fg=1" class="privacidade">Privacidade</a>
+                <a href="https://policies.google.com/terms?hl=pt-BR&fg=1" class="terms">Termos</a>
+                <a href="https://www.google.com/preferences?hl=pt-BR&prev=https://www.google.com/search?client%3Dopera-gx%26q%3Dgoogle%2Bconfigura%25C3%25A7%25C3%25B5es%26sourceid%3Dopera%26ie%3DUTF-8%26oe%3DUTF-8" class="config">Configurações</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

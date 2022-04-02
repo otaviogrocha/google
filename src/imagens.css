@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container{   
+    width: 100vw;
+    height: 77.9vh;
+    max-height: 885px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:-48px;
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    margin-bottom: 250px;
+}
+
+span{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    left: 215px;
+    bottom: 0;
+    white-space: nowrap;
+}
+
+.central{
+    margin-bottom: 42px;    
+}
+
+i{
+    color:#9aa0a6;
+    display: inline-block;
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 16px;
+    display: block;
+    opacity: 70%;
+}
+
+.central input[type=text]{
+    display: block;
+    height: 42px;
+    width: 535px;
+    border-radius: 30px;
+    border: 1px solid #dfdbdb;
+    color: rgba(0,0,0,.87);
+    font-size: 16px;
+    padding-left: 45px;
+    margin-bottom: 1px;
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    position: relative;
+}
+
+.central input[type=text]:visited{
+    background-color: white;
+}
+
+.central input[type=text]:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
+}
+
+.central input[type=text]:focus{
+    background-color: white;
+}
+
+input[type=submit], #search{
+    margin-left: 148.5px;
+    margin-bottom: 0px;
+    border: 1px solid #00000000;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 9px 16px 9px 16px;
+    font-size: 14px;
+    color: #3c4043;
+    background-color: #f5f5f5;
+}
+
+.central input[type=submit]:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
+}
+
+.central input[type=submit]:active{
+   outline: auto;
+   outline-color: cornflowerblue;
+   outline-width: 1ch;
+}
+
+.central button{
+    margin-left: 8px;
+    margin-top: 10px;
+    border: 1px solid #00000000;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 9px 15px 9px 16px;
+    font-size: 14px;
+    color: #3c4043;
+    background-color: #f5f5f5;
+}
+
+.central button:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
+}
+
+.central button:active{
+    outline: auto;
+    outline-color: cornflowerblue;
+    outline-width: 1ch;
+ }
+
+.links{
+    height: 26px;
+    float: right;
+    padding-right: 75px;
+    padding-top: 22px;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a,a:visited{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,0.87);
+}
+
+.links a:hover{
+    text-decoration:underline;
+}
+
+.links #google{    
+    flex-direction: row;
+    position: relative;
+    align-items: right;    
+    font-size: 13px;
+    padding-right: 13px;
+}
+
+.rodape{
+    position: relative;
+    margin-top: 74px;
+    box-sizing: border-box;
+}
+
+.brasil{
+    background-color: #f2f2f2;
+    border-bottom: 1px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    font-family: arial,sans-serif;
+}
+
+.dentro{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.direita{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.sobre {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: flex;
+    padding: 0 20px;
+    height: 46px;
+    justify-content: space-between;    
+    align-items: center;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.sobre .business {
+    padding: 15px;
+    align-items: center;
+    text-decoration: none;
+    color: #70757a;
+}
+
+.sobre .about{
+    padding: 15px;
+    align-items: center;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.sobre .research{
+    padding: 15px;
+    align-items: center;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.sobre .p{
+    padding: 15px;
+    align-items: center;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.sobre .privacidade{
+    padding: 15px;
+    align-items: center;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.sobre .terms{
+    padding: 15px;
+    align-items: center;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.sobre .config{
+    padding: 15px;
+    align-items: center;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.about:hover{
+    text-decoration: underline;
+}
+
+.p:hover{
+    text-decoration: underline;
+}
+
+.business:hover{
+    text-decoration: underline;
+}
+
+.research:hover{
+    text-decoration: underline;
+}
+
+.terms:hover{
+    text-decoration: underline;
+}
+
+.config:hover{
+    text-decoration: underline;
+}
+
+.privacidade:hover{
+    text-decoration: underline;
+}

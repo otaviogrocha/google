@@ -1,0 +1,369 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    min-height: 100%;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    max-height: 885px;
+    overflow-x: hidden;
+}
+
+.topo {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.foto img {
+    width: 68px;
+    height: auto;
+    line-height: normal;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 22px;
+}
+
+.link {
+    display: inline-flex;
+    height: 26px;
+    float: right;
+    padding-right: 75px;
+    padding-top: 22px;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.link #image {
+    flex-direction: row;
+    position: relative;
+    align-items: right;
+    padding-left: 19px;
+}
+
+.link #image:visited {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.link #image:hover {
+    text-decoration: underline;
+}
+
+.link #google:hover {
+    text-decoration: underline;
+}
+
+.titulo {
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-top: 15px;
+    border: 0;
+}
+
+.titulo body {
+    width: 1385px;
+    height: 23px;
+}
+
+.titulo h2 {
+    color: #d93025;
+    font-size: 20px;
+    font-weight: inherit;
+    margin: 25px 35px;
+    font-family: arial, sans-serif;
+}
+
+.barra {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    margin-bottom: -20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.subtitle{
+    margin-top: -4px;
+    margin-bottom:-20px ;
+}
+
+#loc {
+    margin: 0;
+    font-family: arial, sans-serif;
+    color: #333;
+    font-size: 16px;
+}
+
+#loc2 {
+    display: inline-block;
+    padding-left: 580.5px;
+    font-family: arial, sans-serif;
+    color: #777;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+form {
+    margin: 20px 45px;
+    padding-top: 50px;
+}
+
+label {
+    position: absolute;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.todas label{
+    padding-top: 8px;
+}
+
+.exata label{
+    padding-top: 8px;
+}
+
+.qualquer label{
+    padding-top: 8px;
+}
+.nenhuma label{
+    padding-top: 8px;
+}
+
+.todas{
+    padding-bottom: 13px;
+}
+
+.exata{
+    padding-bottom: 13px;
+}
+
+.qualquer{
+    padding-bottom: 13px;
+}
+
+.textos {
+    padding-top: 20px;
+}
+
+.textos span{
+    color: #555; 
+}
+
+.textos .campo_1 {
+    position: absolute;
+    margin-left: 769px;
+    margin-top: -20px;
+    font-size: 11px;
+}
+
+.textos .campo_2 {
+    position: absolute;
+    margin-left: 768px;
+    margin-top: -20px;
+    font-size: 11px;
+    font-family: monospace;
+    padding-left: 155px;
+    color: #666;
+}
+
+#dois{
+    padding-left: 20px;
+    margin-left: 936.5px;
+}
+
+#tres{
+    margin-left: 768.8px;
+    margin-top: -27px;
+}
+
+#quatro{
+    margin-left: 645px;
+    margin-top: -27px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+#cinco{
+    margin-left: 815.3px;
+    margin-top: -27px;
+}
+
+#seis{
+    margin-left: 613.8px;
+    margin-top: -14px;
+}
+
+#sete{
+    margin-top: -26px;
+    margin-left: 768.8px;
+}
+
+#oito{
+    margin-left: 613.8px;
+    margin-top: -14px;
+}
+
+.textos input {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+}
+
+input[type=text] {
+    position: relative;
+    height: 25px;
+    width: 554px;
+    left: 182px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding: 1px 8px;
+    outline:none;
+}
+
+input[type=text]:focus{
+    outline: auto;
+    outline-color:rgba(81, 116, 180, 0.559);
+}
+
+input[type=submit] {
+    min-width: 120px;
+    height: 30px;
+    margin-top: 50px;
+    padding: 0 12px;
+    line-height: 250%;
+    margin-left: 800px;
+    appearance: auto;
+    color: #fff;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    cursor: default;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+    border-radius: 2px;
+    box-shadow: none;
+}
+
+.rodape{
+    position: relative;
+    margin-top: 430px;
+    box-sizing: border-box;
+}
+
+.brasil{
+    background-color: #f2f2f2;
+    border-bottom: 1px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    font-family: arial,sans-serif;
+}
+
+.dentro{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.direita{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.sobre {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: flex;
+    padding: 0 20px;
+    height: 46px;
+    justify-content: space-between;    
+    align-items: center;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.sobre .business {
+    padding: 15px;
+    align-items: center;
+    text-decoration: none;
+    color: #70757a;
+}
+
+.sobre .about{
+    padding: 15px;
+    align-items: center;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.sobre .research{
+    padding: 15px;
+    align-items: center;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.sobre .p{
+    padding: 15px;
+    align-items: center;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.sobre .privacidade{
+    padding: 15px;
+    align-items: center;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.sobre .terms{
+    padding: 15px;
+    align-items: center;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.sobre .config{
+    padding: 15px;
+    align-items: center;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.about:hover{
+    text-decoration: underline;
+}
+
+.p:hover{
+    text-decoration: underline;
+}
+
+.business:hover{
+    text-decoration: underline;
+}
+
+.research:hover{
+    text-decoration: underline;
+}
+
+.terms:hover{
+    text-decoration: underline;
+}
+
+.config:hover{
+    text-decoration: underline;
+}
+
+.privacidade:hover{
+    text-decoration: underline;
+}
